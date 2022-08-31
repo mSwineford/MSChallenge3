@@ -13,7 +13,7 @@ var charsets = {
   lowerCharset: "abcdefghijklmnopqrstuvwxyz",
   upperCharset: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
   numCharset: "0123456789",
-  specialCharset: "!@#$%^&*()_+-=",
+  specialCharset: " !@#$%^&*()_+-={}|/<>[]",
 };
 
 function generatePassword() {
